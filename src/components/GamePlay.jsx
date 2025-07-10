@@ -39,8 +39,6 @@ const roledice=()=>{
 const Resetbutton=()=>{
   setScore(0)
 }
-  
-
   return (
     <Maincontainer>
 
