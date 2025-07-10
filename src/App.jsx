@@ -1,5 +1,5 @@
 import styled from  "styled-components";
-import Start_Game from "./components/Start_Game";
+import StartGame from "./components/StartGame";
 import './App.css'
 import { useState } from "react";
 import GamePlay from "./components/GamePlay";
@@ -12,7 +12,7 @@ setIsGameStarted((isGameStarted)=>!isGameStarted);
 }
   return (
     <>
-{isGameStarted ? <GamePlay/> : <Start_Game toggle={toggleGame}/>}
+{isGameStarted ? <GamePlay/> : <StartGame toggle={toggleGame}/>}
    </>
   )
 }
